@@ -1,0 +1,251 @@
+
+  body{
+    background: lightblue;
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+}
+.title_bar{
+    background-color: #dadada;
+    height: auto;
+    width: 100%;
+    max-width: 1024px;
+    
+}
+.logo-name{
+    float: left;
+    width: 87%;
+}
+.logo{
+    
+    height: 80px;
+    width: 23.5%;
+    max-width: 71px;
+    padding: 15px;
+    float: left;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.company-name{
+    float: right;
+    width: 82%;
+}
+.company-name h1{
+    text-align: center;
+    font-family: Merriweather Sans;
+    font-size: 40px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+.company-name h3{
+    text-align: left;
+    font-family:Merriweather Sans ;
+    font-size: 30px;
+    margin-left: 51.6%;
+    margin-top: 5px;
+}
+.menu{
+  float:right;
+  margin: 2%;
+}
+.navbar {
+overflow: hidden;
+background-color: #333;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: darkblue;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+width: 100%;
+left:75%;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 26.45%;
+padding: 10px;
+background-color: #ccc;
+height: 250px;
+font-family: Merriweather Sans;
+}
+
+.column a {
+float: none;
+color: black;
+padding: 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+.column a:hover {
+background-color: #ddd;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(228, 210, 210);
+  color: rgb(17, 14, 14);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ddd;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  vertical-align: middle;
+  height: 198px;
+  width: 90%;  
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 700px) {
+  .text {font-size: 11px}
+}

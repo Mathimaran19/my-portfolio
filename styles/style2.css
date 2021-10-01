@@ -1,0 +1,99 @@
+*{
+    text-align: center;
+}
+.about-company{
+    background-color: #dacec2;
+    width: 100%;
+    max-width: 1024px;
+    height: 360px;
+    
+}
+.about-us{
+    float: left;
+    width: 44%;
+    max-width: 450.5px;
+    height: 360px;
+}
+.about-us h4{
+    font-family:Merriweather Sans;
+    font-size: 25px;
+    margin: 10px;
+}
+.about-us p{
+    font-family:Merriweather Sans;
+    font-size: 20px;
+    margin: 10px;
+}
+.about-us button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.about-us button:hover{
+    background-color: darkgrey;
+}
+.about-typing{
+    float: right;
+    width: 56%;
+    max-width: 573.5px;
+    height: 360px;
+}
+.typing{
+    display: inline;
+    width: 48%;
+    float:left;
+    height: 170px;
+    background-color: #86715a;
+    margin: 5px;
+}
+.typing h4{
+    font-family:Merriweather Sans;
+    font-size: 20px;
+    margin: 5px;
+}
+.typing p{
+    font-family:Merriweather Sans;
+    font-size: 14px;
+    margin: 10px;
+}
+@media (max-width:768px) {
+    .about-us{
+        width: 100%;
+        height: auto;
+    }
+    .about-us h4{
+        font-family:Merriweather Sans;
+        font-size: 15px;
+        margin:5px;
+    }
+    .about-us p{
+        font-family:Merriweather Sans;
+        font-size: 10px;
+        margin: 5px;
+    }
+    .about-typing{
+        width: 100%;
+    }
+    .typing{
+        display: inline;
+        width: 48%;
+        float:left;
+        height: 170px;
+        background-color: #86715a;
+        margin: 5px;
+    }
+    .typing h4{
+        font-family:Merriweather Sans;
+        font-size: 15px;
+    }
+    .typing p{
+        font-family:Merriweather Sans;
+        font-size:12px;
+        margin: 5px;
+    }
+    
+}

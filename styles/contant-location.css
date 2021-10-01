@@ -1,0 +1,78 @@
+.contect-location{
+    max-width: 1024px;
+    width: 100%;
+    background-color: #8f8484;
+}
+.contect-form{
+float:left;
+width: 48%;
+max-width: 491.5px;
+margin: 10px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 2px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-box {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.location{
+    float: right;
+    width: 48%;
+    max-width: 491.6px;
+    margin: 10px;
+}
+.location img{
+    height: 94%;
+    width: 90%;
+}
+.bottum{
+    width: 100%;
+    max-width: 1024px;
+    height: 100px;
+    background-color: rgb(32, 30, 30);
+   
+}
+.socialmedia img{
+    background-color:#21354d ;
+    margin: 10px;
+}
+.socialmedia img:hover{
+    background-color: red;
+}
+.authority h5{
+    color: white;
+
+}
+@media(max-width:700px){
+    .contect-form{
+        width: 96%;
+        margin: 10px;
+        }
+        .location{
+            float: right;
+            width: 96%;
+            margin: 10px;
+        }
+}
